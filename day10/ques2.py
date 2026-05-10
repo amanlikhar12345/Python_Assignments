@@ -7,6 +7,11 @@ Output: Total Ways = 120
 '''
 n=int(input("n = "))
 fac=1
-for i in range(1,n+1):
+"""for i in range(1,n+1):
     fac*=i
+print("Total Ways = ",fac)"""
+i=1
+while i<=n:
+    fac*=i
+    i+=1
 print("Total Ways = ",fac)

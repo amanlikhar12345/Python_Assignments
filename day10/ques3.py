@@ -10,6 +10,11 @@ Output:
 6 x 10 = 60
 '''
 n=int(input("n = "))
-for i in range(1,11):
+'''for i in range(1,11):
     t=i*n
-    print(f"6 * {i} ={t}")
+    print(f"{n} * {i} ={t}")'''
+i=1
+while i<=10:
+    t=i*n
+    print(f"{n} * {i} ={t}")
+    i+=1
