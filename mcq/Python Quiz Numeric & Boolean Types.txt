@@ -1,0 +1,60 @@
+Python Quiz: Numeric & Boolean Types 
+1. What is the result of type(0xFF)? o A) <class 'str'> o B) <class 'hex'> o C) <class 'int'> o D) <class 'float'> 
+C) <class 'int'>
+
+2. Which of these will evaluate to False? o A) bool(-1) o B) bool(0.00001) o C) bool(0j) o D) bool("False") 
+C) bool(0j)
+
+3. What is the value of float('inf') > 10100? o A) True o B) False o C) OverflowError o D) TypeError
+ A) True
+
+4. What is the result of int(10.9)? o A) 11 o *B) 10 o C) 10.0 o D) ValueError 
+B) 10
+
+5. Which statement about the bool type is true? o A) bool is a subclass of int. o B) bool is a subclass of str. o C) True and False are stored as strings. o D) bool is its own base type unrelated to numbers. 
+A) bool is a subclass of int.
+
+6. What is the result of 10 // 3? o A) 3.333 o B) 3 o C) 4 o D) 3.0
+B) 3 
+
+7. What is the output of type(1 + 2j)? o A) <class 'int'> o B) <class 'complex'> o C) <class 'number'> o D) <class 'imaginary'> 
+B) <class 'complex'>
+
+8. What is the result of True + True? o A) True o B) 2 o C) TypeError o D) None 
+B) 2
+
+9. Which of the following represents the number 1,000,000 correctly in Python? o A) 1,000,000 o B) 1_000_000 o C) 1.000.000 o D) 1..000 
+B) 1_000_000
+
+10. What does abs(-5.5) return? o A) -5 o B) 5 o C) 5.5 o D) -5.5 
+C) 5.5
+
+11. What is the result of round(2.5) and round(3.5) in Python 3? o A) 3 and 4 o B) 2 and 4 o C) 2 and 3 o D) 3 and 3 
+ 2 and 3
+
+12. What is the output of 0.1 + 0.1 + 0.1 == 0.3? o A) True o B) False o C) 0.3 o D) None 
+A) True
+
+13. Which built-in function returns a tuple of (quotient, remainder)? o A) mod() o B) divmod() o C) quotrem() o D) split() 
+B) divmod()
+
+14. What is the result of bool(None)? o A) True o B) False o C) TypeError o D) None 
+B) False
+
+15. What is the result of 2 3 2? o A) 64 o B) 512 o C) 4096 o D) 18 
+ B) 512
+
+16. How do you represent the imaginary part of a complex number z = 2 + 3j? o A) z.i o B) z.imag o C) z.imaginary o D) z.j
+ D) z.j
+
+17. What is the result of float(5)? o A) 5 o B) 5.0 o C) '5.0' o D) 5.0000 
+B) 5.0
+
+18. Which of the following evaluates to True? o A) 0 == False o B) 1 === True o C) bool([]) o D) None == False 
+B) 1 === True
+
+19. What is the value of -5 // 2? o A) -2 o B) -3 o C) -2.5 o D) 2 
+ A) -2
+
+20. What is the maximum value of an int in Python 3? o A) $2^{31} - 1$ o B) $2^{63} - 1$ o C) There is no fixed maximum (limited by memory). o D) $10^{308}$ 
+C) There is no fixed maximum (limited by memory).

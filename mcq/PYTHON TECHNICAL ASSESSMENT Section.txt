@@ -1,0 +1,62 @@
+PYTHON TECHNICAL ASSESSMENT Section 1: Output Basics 
+
+1. What is the default separator (sep) used in the print() function? A) \n (newline) B) "" (empty string) C) " " (single space) D) "," (comma) 
+C) " " (single space)
+
+2. Which argument determines what is printed at the very end of a print() statement? A) sep B) end C) final D) stop 
+B) end
+
+3. What is the output of print("A", "B", sep="->", end="!")? A) A B-> ! B) A->B! C) AB->! D) A->B-> ! 
+D) A->B-> !
+
+4. How do you print a double newline using only the end parameter? A) end="\n\n" B) end="2n" C) end="\n" * 2 D) sep="\n\n"Section 2: String Formatting 
+A) end="\n\n"
+
+5. What is the correct syntax for an f-string? A) f("Value: {x}") B) f"Value: {x}" C) str(f"Value: x") D) "{f}Value: {x}"
+f"Value: {x}"
+
+6. What do the curly braces {} do inside an f-string? A) Create a dictionaryB) Start a code block C) Act as a placeholder to evaluate variables D) Print literal braces to the screen
+
+C) Act as a placeholder to evaluate variables
+
+7. What is the result of "{} is {}".format("Python", "fun")? A) {Python} is {fun} B) Python is fun C) fun is Python D) Python fun 
+B) Python is fun
+
+8. How do you format a float to exactly 2 decimal places in an f-string? A) f"{val:.2f}" B) f"{val.2f}" C) f"{val:2}" D) f"{round(val, 2)}"Section 3: Input & Conversion 
+A) f"{val:.2f}"
+
+9. What data type does the input() function return by default? A) int B) float C) str (string) D) None 
+C) str (string)
+
+10. How do you correctly convert a user's input into an integer? A) x = int(input()) B) x = input(int) C) x = input().int() D) int x = input() 
+ A) x = int(input())
+
+11. What happens if you run int(input()) and the user types 25.7? A) It returns 25 B) It returns 26 C) It raises a ValueError D) It raises a TypeErrorSection 4: Split & Map 
+A) It returns 25
+
+12. If a user inputs "A B C", what does input().split() return? A) "ABC" B) ["A", "B", "C"] C) ("A", "B", "C") D) ["A B C"] 
+["A", "B", "C"]
+
+13. What is the purpose of the map() function when taking input? A) To create a map or dictionary B) To apply a function (like int) to all parts of the input C) To sort the input data D) To remove extra spaces 
+B) To apply a function (like int) to all parts of the input
+
+14. How do you take two integers from one line of input? A) a, b = int(input().split()) B) a, b = map(int, input().split()) C) a, b = input().split().map(int) D) a, b = map(input().split(), int) 
+map(int, input().split())
+
+15. What is the result of m1, m2 = map(float, ["10", "20"])? A) m1=10.0, m2=20.0 B) m1="10", m2="20" C) m1=10, m2=20 D) It causes an errorSection 5: Advanced Logic 
+A) m1=10.0, m2=20.0
+16. What happens if you set sep=None in a print() statement? A) No space is used B) The default single space is used C) It raises an error D) It prints the word "None" 
+
+17. What is the output of print("Hi", end=" ") followed by print("Anil")? A) Hi\nAnil B) Hi Anil C) HiAnil D) Anil Hi 
+B) Hi Anil
+
+18. What is the length of the list returned by "1,2,3,4".split(",")? A) 1 B) 4 C) 7 D) 3 
+The correct answer is:
+
+B) 4
+
+19. Which escape sequence represents a tab? A) \t B) \b C) \n D) \r 
+ A) \t
+
+20. Which code will cause a TypeError? A) print("Score: " + "10") B) print("Score:", 10) C) print("Score: " + 10) D) print(f"Score: {10}")
+print("Score: " + 10)
